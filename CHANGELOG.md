@@ -2,8 +2,4 @@
 
 ## 1.0.0 - 2023-03-30
 
-- Added something
-- Changed something
-- Fixed something
-- Removed something
-- Deprecated something
+- First version, support `client` option and `VITE_ADSENSE_CLIENT` env

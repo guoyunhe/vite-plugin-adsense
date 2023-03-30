@@ -8,8 +8,17 @@ npm i vite-plugin-adsense
 
 ## Usage
 
-```ts
-import { hello } from 'vite-plugin-adsense';
+```ini
+# .env
+VITE_ADSENSE_CLIENT=ca-pub-1234567890123456
+```
 
-hello('world');
+```ts
+// vite.config.ts
+import { defineConfig } from 'vite';
+import adsense from 'vite-plugin-adsense';
+
+export default defineConfig({
+  plugins: [adsense()],
+});
 ```
