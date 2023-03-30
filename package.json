@@ -24,8 +24,8 @@
     "name": "Guo Yunhe",
     "email": "i@guoyunhe.me"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "type": "module",
+  "main": "dist/index.mjs",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
