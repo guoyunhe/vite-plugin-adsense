@@ -1,0 +1,60 @@
+{
+  "name": "vite-plugin-adsense",
+  "version": "1.0.0",
+  "description": "Insert Google AdSense script and ads.txt",
+  "keywords": [
+    "node",
+    "vite",
+    "vite-plugin",
+    "google",
+    "adsense",
+    "advertisement"
+  ],
+  "homepage": "https://github.com/guoyunhe/vite-plugin-adsense#readme",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/vite-plugin-adsense/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/vite-plugin-adsense.git"
+  },
+  "funding": "https://github.com/sponsors/guoyunhe",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node-scripts build",
+    "format": "node-scripts format",
+    "lint": "node-scripts lint",
+    "test": "node-scripts test",
+    "watch": "node-scripts watch"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": "@guoyunhe/node-scripts"
+  },
+  "jest": {
+    "preset": "@guoyunhe/node-scripts"
+  },
+  "devDependencies": {
+    "@guoyunhe/node-scripts": "^2.0.0",
+    "@tsconfig/node16": "^1.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^16.0.0",
+    "typescript": "^4.0.0"
+  }
+}
