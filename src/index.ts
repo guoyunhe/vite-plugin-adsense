@@ -27,7 +27,7 @@ export default function adsense({ client }: AdSenseOptions = {}): Plugin {
         `  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${actualClient}" crossorigin="anonymous" defer></script>\n</body>`
       );
     },
-    buildEnd: async () => {
+    closeBundle: async () => {
       if (!actualClient) {
         return;
       }
