@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-adsense",
   "version": "1.0.3",
-  "description": "Insert Google AdSense script and ads.txt",
+  "description": "Insert Google AdSense script to `index.html` and create `ads.txt` file",
   "keywords": [
     "node",
     "vite",

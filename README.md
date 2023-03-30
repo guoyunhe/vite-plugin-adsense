@@ -1,5 +1,12 @@
 # vite-plugin-adsense
 
+Insert Google AdSense script to `index.html` and create `ads.txt` file.
+
+## Why or who need it?
+
+If your code powers many different websites, and each site use a different AdSense account, this
+plugin is made for you. You can configure different AdSense account in `.env` file for each site.
+
 ## Install
 
 ```bash
