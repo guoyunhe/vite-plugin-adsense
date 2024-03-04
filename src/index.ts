@@ -24,7 +24,7 @@ export default function adsense({ client }: AdSenseOptions = {}): Plugin {
       // insert adsense script to the end of index.html
       return html.replace(
         /<\/body>/,
-        `  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${actualClient}" crossorigin="anonymous" defer></script>\n</body>`
+        `  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${actualClient}" crossorigin="anonymous" defer></script>\n</body>`,
       );
     },
     closeBundle: async () => {
@@ -34,7 +34,7 @@ export default function adsense({ client }: AdSenseOptions = {}): Plugin {
       // create ads.txt file
       await writeFile(
         join(outDir, 'ads.txt'),
-        `google.com, ${actualClient.substring(3)}, DIRECT, f08c47fec0942fa0\n`
+        `google.com, ${actualClient.substring(3)}, DIRECT, f08c47fec0942fa0\n`,
       );
     },
   };

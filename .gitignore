@@ -1,16 +1,8 @@
-# Build output
-dist
-
-# Coverage directory
+.rive
+build
 coverage
-
-# Dependency directories
-node_modules/
-
-# Lock files
+dist
+node_modules
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
-
-# Output of 'npm pack'
-*.tgz

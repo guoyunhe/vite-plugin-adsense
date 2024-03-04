@@ -1,5 +1,5 @@
 # Changelog
 
-## 1.0.0 - 2023-03-30
+## 2024-03-04
 
-- First version, support `client` option and `VITE_ADSENSE_CLIENT` env
+- Changed license to MIT

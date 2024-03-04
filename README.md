@@ -15,6 +15,8 @@ npm i vite-plugin-adsense
 
 ## Usage
 
+It is recommended to save your client id into `.env` file.
+
 ```ini
 # .env
 VITE_ADSENSE_CLIENT=ca-pub-1234567890123456
@@ -27,5 +29,19 @@ import adsense from 'vite-plugin-adsense';
 
 export default defineConfig({
   plugins: [adsense()],
+});
+```
+
+If you have more advanced usage, you can also pass `client` to plugin options.
+
+```ts
+// vite.config.ts
+import { defineConfig } from 'vite';
+import adsense from 'vite-plugin-adsense';
+
+export default defineConfig({
+  plugins: [adsense({
+    client: 'ca-pub-1234567890123456',
+  })],
 });
 ```
