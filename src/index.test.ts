@@ -1,8 +1,7 @@
-import { hello } from '.';
+import adsense from '.';
 
-describe('hello()', () => {
-  it('say hello', () => {
-    expect(hello()).toBe('Hello, world!');
-    expect(hello('Bob')).toBe('Hello, Bob!');
+describe('adsense()', () => {
+  it('plugin name', () => {
+    expect(adsense().name).toBe('vite:plugin-adsense');
   });
 });
