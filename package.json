@@ -50,14 +50,15 @@
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.1",
-    "@types/node": "^16.18.86",
+    "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "react": "^18.2.0",
     "react-doc-ui": "^2.2.6",
     "react-dom": "^18.2.0",
     "rive": "^2.0.33",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
   },
   "rive": {
     "template": "node",
@@ -66,4 +67,3 @@
     }
   }
 }
-
