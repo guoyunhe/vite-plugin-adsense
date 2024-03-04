@@ -254,8 +254,10 @@ import { defineConfig } from 'vite';
 import adsense from 'vite-plugin-adsense';
 
 export default defineConfig({
-  plugins: [adsense({
-    client: 'ca-pub-1234567890123456',
-  })],
+  plugins: [
+    adsense({
+      client: 'ca-pub-1234567890123456',
+    }),
+  ],
 });
 `})})]})}function lm(e={}){const{wrapper:t}={...Hl(),...e.components};return t?A.jsx(t,{...e,children:A.jsx(Hd,{...e})}):Hd(e)}lm.displayName="MDXContent";const TE=Object.freeze(Object.defineProperty({__proto__:null,default:lm,filepath:EE,frontmatter:kE,title:IE},Symbol.toStringTag,{value:"Module"}));function CE(){return A.jsx(wE,{docs:[SE,TE],basename:"/vite-plugin-adsense/",languages:void 0})}fb(document.getElementById("root")).render(A.jsx(CE,{}));
