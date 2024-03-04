@@ -40,8 +40,10 @@ import { defineConfig } from 'vite';
 import adsense from 'vite-plugin-adsense';
 
 export default defineConfig({
-  plugins: [adsense({
-    client: 'ca-pub-1234567890123456',
-  })],
+  plugins: [
+    adsense({
+      client: 'ca-pub-1234567890123456',
+    }),
+  ],
 });
 ```
