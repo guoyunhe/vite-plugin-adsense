@@ -25,8 +25,7 @@
     "email": "i@guoyunhe.me"
   },
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
