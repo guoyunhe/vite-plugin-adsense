@@ -1,4 +1,4 @@
-import { writeFile } from 'fs/promises';
+import { mkdir, writeFile } from 'fs/promises';
 import { join } from 'path';
 import { loadEnv, Plugin } from 'vite';
 
@@ -32,6 +32,7 @@ export default function adsense({ client }: AdSenseOptions = {}): Plugin {
         return;
       }
       // create ads.txt file
+      await mkdir(outDir, { recursive: true });
       await writeFile(
         join(outDir, 'ads.txt'),
         `google.com, ${actualClient.substring(3)}, DIRECT, f08c47fec0942fa0\n`,
